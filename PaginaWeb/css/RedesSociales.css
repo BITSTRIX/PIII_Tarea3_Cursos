@@ -1,0 +1,122 @@
+@charset "utf-8";
+
+/*Contenido del CSS*/
+/*Autor: Jose Antonio
+update by: Jose Antonio*/
+
+
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+#wrapper{
+		
+		max-width: 1200px;
+		height: 100%;
+		padding-top: 80px;
+		margin: 0 auto;
+		padding-bottom: 10px;
+}
+
+body{
+	
+	background-image: url("../imagenes/003.jpg");
+}
+
+header {
+  background: rgba(0,0,0,0.9); /*rgba valor de opacidad*/
+  width: 100%;
+  position: fixed;
+  z-index: 100;
+}
+
+#logo, nav{
+	display: inline-block;
+}
+
+nav ul {
+  list-style: none;
+  overflow: hidden; 
+}
+ 
+nav ul li {
+  float: left;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+}
+ 
+nav ul li a {
+  display: block; 
+  padding: 20px;
+  color: #fff;
+  text-decoration: none;
+}
+ 
+nav ul li:hover {
+  background: #14B5F5;
+}
+
+
+#Red{
+	margin-top: 5%;
+	width: 100%;
+	height: 60px;
+	display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#Red p{
+	font-size: 50px;
+	color: darkorange;
+	text-align: center;
+	border-radius: 20%;
+	background: rgba(0, 0, 0, 0.7);
+	backdrop-filter: blur(10px);
+
+}
+
+.social {
+	position: center; 
+	margin-left: 60px;
+	top: 200px; 
+	z-index: 2000; 
+
+}
+
+ 
+	.social ul {
+		list-style: none;
+	}
+ 
+	.social ul li {
+		display: inline-block;
+	}
+
+	.social ul li a {
+		display: inline-block;
+		color:#fff;
+		background: #000;
+		padding: 120px 120px;
+		text-decoration: none;
+		-webkit-transition:all 500ms ease; .
+		-o-transition:all 500ms ease;
+		transition:all 500ms ease; /* transición */
+		font-size: 30px
+	}
+ 
+	.social ul li .icon-facebook2 {background:#3b5998;} 
+	.social ul li .icon-instagram {background: #00abf0;}
+	.social ul li .icon-youtube3{background: #d94232;}
+	.social ul li .icon-github2 {background: #666666;}
+ 
+	.social ul li a:hover {
+		background: #000;
+		padding: 130px 130px;
+	}
+
+footer{
+	text-align: center;
+	color: #000;
+}

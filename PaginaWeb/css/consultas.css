@@ -1,0 +1,58 @@
+@charset "utf-8";
+
+/*Contenido del CSS*/
+/*Autor: Jose Antonio
+update by: Jose Antonio*/
+
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+#wrapper{
+		
+		max-width: 1200px;
+		height: 100%;
+		margin: 0 auto;
+		padding-bottom: 10px;
+}
+
+body{
+	
+	background-image: url("../imagenes/003.jpg");
+}
+
+/*NAVEGACION*/
+
+header {
+  background: rgba(0,0,0,0.9); /*rgba valor de opacidad*/
+  width: 100%;
+  position: fixed;
+  z-index: 100;
+}
+
+#logo, nav{
+	display: inline-block;
+}
+
+nav ul {
+  list-style: none;
+  overflow: hidden; /* Limpiar errores de float */
+}
+ 
+nav ul li {
+  float: left;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+}
+ 
+nav ul li a {
+  display: block; 
+  padding: 20px;
+  color: #fff;
+  text-decoration: none;
+}
+ 
+nav ul li:hover {
+  background: #14B5F5;
+}

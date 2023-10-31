@@ -1,0 +1,180 @@
+@charset "utf-8";
+
+/*Contenido del CSS*/
+/*Autor: Jose Antonio
+update by: Jose Antonio*/
+
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+#wrapper{
+		
+		max-width: 100%;
+		height: 100%;
+		margin: 0 auto;
+}
+
+body{
+	
+	background-image: url("../imagenes/003.jpg");
+}
+
+/*NAVEGACION*/
+
+header {
+  background: rgba(0,0,0,0.9); /*rgba valor de opacidad*/
+  width: 100%;
+  position: fixed;
+  z-index: 100;
+  margin-top: -70px;
+}
+
+#logo, nav{
+	display: inline-block;
+}
+
+nav ul {
+  list-style: none;
+  overflow: hidden; 
+}
+ 
+nav ul li {
+  float: left;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+}
+ 
+nav ul li a {
+  display: block; 
+  padding: 20px;
+  color: #fff;
+  text-decoration: none;
+}
+ 
+nav ul li:hover {
+  background: #14B5F5;
+}
+
+/*GALERIA*/
+
+.slider {
+	width: 100%;
+	height: 500px;
+	margin: 2em auto;
+	margin-top: 70px;
+	background-color: #000;
+	
+}
+
+.slider-galeria {
+	width: 80%;
+	height: 500px;
+	position: relative;
+}
+
+.slide {
+	float: left;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+	transition: opacity 2s linear;
+	padding-left: 10%;
+}
+
+.slider-wrapper > .slide:first-child {
+	opacity: 0;
+}
+
+/*-----------------------
+-------Programas-------*/
+
+#cuaprincipal{
+	width: 67%;
+	padding: 1em;
+}
+
+.Programa{
+	background-color: #22B2F0;
+	height: 100%;
+	margin: 20px 0 20px 0;
+	padding: 1em;
+	color: black;
+	border-radius: 5px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.article, .contenedorImagen{
+	display: inline-block;
+	vertical-align: top;
+}
+
+.text{
+	width: 60%;
+	height: auto;
+	margin: 1em 0 1em 0;
+	font-size: 20px;
+	text-align: justify;
+}
+
+.contenedorImagen{
+	float: left;
+    width: 30%;
+    background-color: #FFFFFF;
+    padding: 1em;
+    padding-bottom: 1%;
+    margin-left: 1em;
+    border-radius: 5px;
+    overflow: hidden;
+
+}
+
+article{
+	float: left;
+	margin-right: 1em;
+	margin-left: 1em
+}
+
+#publicidad{
+	width: 30%;
+	height: auto;
+	margin-top: 2em;
+}
+
+
+.anuncio{
+	float: none;
+	background: #FFFfFF;
+	height: auto;
+	font-size: 30px;
+	padding: 0.5em;	
+	text-align: center;
+	margin: 0.5em;
+
+}
+
+img{
+	width: 100%;
+    height: 100%;
+object-position: center;
+	
+}
+
+#cuaprincipal, #publicidad{
+	display: inline-block;
+	vertical-align: top;
+}
+
+
+footer{
+	text-align: center;
+	color: #000;
+	padding-bottom: 20px;
+
+}
+
+
+
